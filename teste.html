@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Button Example</title>
+    <style>
+        /* Estilo do botão quando está marcado */
+        .toggled {
+            background-color: #4CAF50; /* Cor verde */
+            color: white;
+        }
+
+        /* Estilo do elemento a ser mostrado/oculto */
+        #toggleContent {
+            display: none; /* Oculto por padrão */
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Botão que alterna o estado -->
+    <button id="toggleButton">Clique aqui</button>
+
+    <!-- Conteúdo que será mostrado/oculto -->
+    <div id="toggleContent">
+        <p>Este é o conteúdo que aparece e some quando o botão é clicado.</p>
+    </div>
+
+    <script>
+        document.getElementById("toggleButton").addEventListener("click", function() {
+            var content = document.getElementById("toggleContent");
+            // Alterna a visibilidade do conteúdo
+            if (content.style.display === "none") {
+                content.style.display = "block";
+                this.classList.add("toggled"); // Adiciona a classe para mudar a cor do botão
+            } else {
+                content.style.display = "none";
+                this.classList.remove("toggled"); // Remove a classe para voltar à cor original
+            }
+        });
+    </script>
+</body>
+</html>

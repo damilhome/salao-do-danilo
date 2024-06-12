@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salão do Danilo - Agendamento</title>
+    <meta name="description" content="Agende um horário com um de nossos profissionais.">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Agendamento</h1>
+    <form>
+        <div class="profissionais-servicos">
+            <div class="sessao">
+                <h2>Profissionais</h2>
+                <button id="danilo-button">Danilo</button>
+                <button id="mateus-button">Mateus</button>
+                <button id="brenno-button">Brenno</button>
+            </div>
+
+            <div class="sessao">
+                <h2>Serviços</h2>
+                <button id="corte-de-cabelo">Corte de cabelo</button>
+                <button id="barba">Barba</button>
+                <button id="sobrancelha">Sobrancelha</button>
+            </div>
+        </div>
+
+        <div class="horarios-para-agendamento">
+            <h2>Horários</h2>
+            <div id="horarios-danilo" class="horarios">
+                <div id="danilo-segunda">
+                    <h3>Segunda</h3>
+
+                </div>
+                <div id="danilo-terca">
+                    <h3>Terça</h3>
+
+                </div>
+                <div id="danilo-quarta">
+                    <h3>Quarta</h3>
+
+                </div>
+                <div id="danilo-quinta">
+                    <h3>Quinta</h3>
+
+                </div>
+                <div id="danilo-sexta">
+                    <h3>Sexta</h3>
+
+                </div>
+                <div id="danilo-sabado">
+                    <h3>Sábado</h3>
+
+                </div>
+            </div>
+
+            <div id="horarios-mateus" class="horarios">
+                <div id="mateus-segunda">
+                    <h3>Segunda</h3>
+
+                </div>
+                <div id="mateus-terca">
+                    <h3>Terça</h3>
+
+                </div>
+                <div id="mateus-quarta">
+                    <h3>Quarta</h3>
+
+                </div>
+                <div id="mateus-quinta">
+                    <h3>Quinta</h3>
+
+                </div>
+                <div id="mateus-sexta">
+                    <h3>Sexta</h3>
+
+                </div>
+                <div id="mateus-sabado">
+                    <h3>Sábado</h3>
+
+                </div>
+            </div>
+            <div id="horarios-brenno" class="horarios">
+                <div id="brenno-segunda">
+                    <h3>Segunda</h3>
+
+                </div>
+                <div id="brenno-terca">
+                    <h3>Terça</h3>
+
+                </div>
+                <div id="brenno-quarta">
+                    <h3>Quarta</h3>
+
+                </div>
+                <div id="brenno-quinta">
+                    <h3>Quinta</h3>
+
+                </div>
+                <div id="brenno-sexta">
+                    <h3>Sexta</h3>
+
+                </div>
+                <div id="brenno-sabado">
+                    <h3>Sábado</h3>
+
+                </div>
+            </div>
+        </div>
+        <div class="confirmar">
+            <button type="submit">Enviar solicitação de agendamento</button>
+        </div>
+    </form>
+    <div class="meus-agendamentos">
+        <h2>Meus agendamentos</h2>
+        <ul>
+            
+        </ul>
+    </div>
+
+    <!-- <form>
+        <fieldset>
+            <legend>Profissionais</legend>
+            <label><input type="checkbox" name="profissionais" id="danilo" value="danilo"> Danilo</label>
+            <label><input type="checkbox" name="profissionais" id="mateus" value="mateus"> Mateus</label>
+            <label><input type="checkbox" name="profissionais" id="rodrigo" value="rodrigo"> Rodrigo</label>
+            <button id="profissionais-confirmar">Ver</button>
+        </fieldset>
+        <fieldset>
+            <legend>Serviços</legend>
+            <label><input type="checkbox" name="servicos" id="corte-de-cabelo" value="corte-de-cabelo"> Corte de cabelo</label>
+            <label><input type="checkbox" name="servicos" id="corte-de-cabelo" value="corte-de-cabelo"> Barba</label>
+            <label><input type="checkbox" name="servicos" id="corte-de-cabelo" value="corte-de-cabelo"> Sombrancelha</label>
+        </fieldset>
+        <fieldset>
+            <legend>Horários</legend>
+            <div class="dia-da-semana" id="segunda">
+                <h3>Segunda</h3> 
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 8h00 – 9h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 9h00 – 10h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 10h00 – 11h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 11h00 – 12h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 13h00 – 14h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 14h00 – 15h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 15h00 – 16h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 16h00 – 17h00</label>
+            </div>
+            <div class="dia-da-semana" id="segunda">
+                <h3>Terça</h3> 
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 8h00 – 9h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 9h00 – 10h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 10h00 – 11h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 11h00 – 12h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 13h00 – 14h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 14h00 – 15h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 15h00 – 16h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 16h00 – 17h00</label>
+            </div>
+            <div class="dia-da-semana" id="segunda">
+                <h3>Quarta</h3> 
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 8h00 – 9h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 9h00 – 10h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 10h00 – 11h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 11h00 – 12h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 13h00 – 14h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 14h00 – 15h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 15h00 – 16h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 16h00 – 17h00</label>
+            </div>
+            <div class="dia-da-semana" id="segunda">
+                <h3>Quinta</h3> 
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 8h00 – 9h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 9h00 – 10h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 10h00 – 11h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 11h00 – 12h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 13h00 – 14h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 14h00 – 15h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 15h00 – 16h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 16h00 – 17h00</label>
+            </div>
+            <div class="dia-da-semana" id="segunda">
+                <h3>Sexta</h3> 
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 8h00 – 9h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 9h00 – 10h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 10h00 – 11h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 11h00 – 12h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 13h00 – 14h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 14h00 – 15h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 15h00 – 16h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 16h00 – 17h00</label>
+            </div>
+            <div class="dia-da-semana" id="segunda">
+                <h3>Sábado</h3> 
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 8h00 – 9h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 9h00 – 10h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 10h00 – 11h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 11h00 – 12h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 13h00 – 14h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 14h00 – 15h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 15h00 – 16h00</label>
+                <label><input type="checkbox" name="horarios" id="8h00 - 9h00" value="8h00 - 9h00"> 16h00 – 17h00</label>
+            </div>
+        </fieldset>
+        <button type="submit" id="confirmar">Confirmar</button>
+    </form> -->
+    <script src="script.js"></script>
+</body>
+</html>

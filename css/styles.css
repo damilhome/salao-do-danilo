@@ -1,0 +1,64 @@
+html {
+    width: 100%;
+    min-height: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.profissionais-servicos {
+    margin: 0 auto;;
+    width: 60%;
+    display: flex;
+}
+
+.sessao {
+    width: 50%;
+}
+
+.horarios {
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.horarios-para-agendamento {
+    border: 1px solid black;
+    width: 60%;
+    min-height: 8vh;
+    margin: 0 auto;
+}
+
+.horarios-para-agendamento h2 {
+    text-align: center;
+}
+
+.meus-agendamentos h2 {
+    text-align: center;
+}
+
+.confirmar {
+    width: 100%;
+    text-align: center;
+}
+
+#danilo-segunda, #danilo-terca, #danilo-quarta, #danilo-quinta, #danilo-sexta, #danilo-sabado, #mateus-segunda, #mateus-terca, #mateus-quarta, #mateus-quinta, #mateus-sexta, #mateus-sabado, #brenno-segunda, #brenno-terca, #brenno-quarta, #brenno-quinta, #brenno-sexta, #brenno-sabado {
+    display: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.selecionado {
+    background-color: #29c6e6;
+    color: white;
+    border:3px solid #29c6e6;
+}
+
+#mensagemDisponibilizacao {
+    width: 60%;
+    margin: 0 auto;
+}
